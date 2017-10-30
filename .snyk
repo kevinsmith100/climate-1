@@ -99,3 +99,10 @@ patch:
         patched: '2017-10-29T23:30:38.255Z'
     - laravel-elixir > browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-10-29T23:30:38.255Z'
+  'npm:marked:20170112':
+    - laravel-elixir > gulp-notify > node-notifier > cli-usage > marked:
+        patched: '2017-10-30T02:53:57.301Z'
+    - laravel-elixir > gulp-phpunit > gulp-notify > node-notifier > cli-usage > marked:
+        patched: '2017-10-30T02:53:57.301Z'
+    - laravel-elixir > gulp-phpunit > node-notifier > cli-usage > marked:
+        patched: '2017-10-30T02:53:57.301Z'
