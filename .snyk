@@ -1,6 +1,17 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.8.0
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:ws:20171108':
+    - laravel-elixir > browser-sync > socket.io > engine.io > ws:
+        reason: None given
+        expires: '2017-12-10T16:31:52.589Z'
+    - laravel-elixir > browser-sync > socket.io-client > engine.io-client > ws:
+        reason: None given
+        expires: '2017-12-10T16:31:52.589Z'
+    - laravel-elixir > browser-sync > socket.io > socket.io-client > engine.io-client > ws:
+        reason: None given
+        expires: '2017-12-10T16:31:52.589Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':
