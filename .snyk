@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.13.3
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:ws:20171108':
@@ -117,3 +117,22 @@ patch:
         patched: '2017-10-30T02:53:57.301Z'
     - laravel-elixir > gulp-phpunit > node-notifier > cli-usage > marked:
         patched: '2017-10-30T02:53:57.301Z'
+  SNYK-JS-AXIOS-174505:
+    - laravel-elixir > browser-sync > localtunnel > axios:
+        patched: '2019-05-07T02:30:49.305Z'
+  'npm:hoek:20180212':
+    - laravel-elixir > gulp-phpunit > gulp-messenger > purdy > hoek:
+        patched: '2019-05-07T02:30:49.305Z'
+    - laravel-elixir > gulp-less > less > request > hawk > hoek:
+        patched: '2019-05-07T02:30:49.305Z'
+    - laravel-elixir > gulp-less > less > request > hawk > boom > hoek:
+        patched: '2019-05-07T02:30:49.305Z'
+    - laravel-elixir > gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2019-05-07T02:30:49.305Z'
+    - laravel-elixir > gulp-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-07T02:30:49.305Z'
+  'npm:lodash:20180130':
+    - laravel-elixir > gulp-phpspec > lodash:
+        patched: '2019-05-07T02:30:49.305Z'
+    - laravel-elixir > gulp-phpunit > gulp-messenger > lodash:
+        patched: '2019-05-07T02:30:49.305Z'

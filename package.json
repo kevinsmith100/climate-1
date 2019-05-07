@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "laravel-elixir": "^4.0.1",
-    "snyk": "^1.49.1"
+    "laravel-elixir": "^5.0.0",
+    "snyk": "^1.161.1"
   },
   "repository": {},
   "devDependencies": {
